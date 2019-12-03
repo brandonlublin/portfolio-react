@@ -1,0 +1,38 @@
+.mainImg {
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-weight: bolder;
+    position: relative;
+    margin-bottom: 150px;
+}
+.hero-header {
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
+    width: 55vw;
+}
+.headerText1 {
+    z-index: 1000;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'avenir', medium;
+    /* text-shadow: 0 2px 5px #000; */
+    font-size: 5vw;
+    overflow: hidden;
+}
+.headerText2 {
+    /* z-index: 1000; */
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'avenir';
+    /* text-shadow: 0 2px 5px #000; */
+    font-size: 3vw;
+    overflow: hidden;
+}
